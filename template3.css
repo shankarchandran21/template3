@@ -1,148 +1,761 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.top {
-    display: flex;
-    margin-top: 10px;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.top>div {
-    padding-top: 10px;
-}
-
-.top>div:nth-child(2) {
-    position: relative;
-    left: 50px;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 8px;
-    width: 80px;
-    color: white;
-    background-color: black;
-    cursor: pointer;
-}
-
-.center {
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
-    width: 80%;
-}
-
-.centerFirstDiv>div:nth-child(1) {
-    display: flex;
-    padding-top: 20px;
-}
-
-.about {
-    padding-right: 20px;
-}
-
-.forum {
-    padding-right: 20px;
-}
-
-.buy {
-    padding-right: 10px;
-}
-
-.login {
-    padding-left: 20px;
-}
-
-.blogzineFullDiv {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
-    align-items: center;
-}
-
-.blogzineSpam {
-    display: flex;
-}
-
-.home {
-    padding-right: 20px;
-}
-
-.pages {
-    padding-left: 20px;
-}
-
-.post {
-    padding-left: 20px;
-}
-
-.lifestyle {
-    padding-left: 20px;
-}
-
-.component {
-    padding-left: 20px;
-}
-
-.subscribe {
-    border: 1px solid black;
-    width: 90px;
-    padding: 10px;
-    text-align: center;
-    background-color: red;
-    color: white;
-}
-
-.trending {
-    border: 1px solid black;
-    width: 80px;
-    padding-left: 10px;
-    padding-top: 5px;
-    height: 20px;
-    margin-top: 30px;
-    border-radius: 5px;
-}
-
-.lifestyleFlex {
-    display: flex;
-    padding-top: 30px;
-}
-
-.lifestyleDiv {
-    border: 1px solid black;
-    width: 27%;
-    padding: 50px;
-    border-radius: 10px;
-}
-
-.louis {
-    display: flex;
-}
-
-.louislist {
-    display: flex;
-}
-
-.louis2021 {
-    margin-left: 50px;
-}
-
-.louisRead {
-    margin-left: 50px;
-}
-
-.technologyFullDiv {
-    border: 1px solid black;
-    width: 30%;
-    padding: 50px;
-    border-radius: 10px;
-    margin-left: 40px;
-}
-
-.bryan {
-    display: flex;
-}
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .top {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
+    
+    .top>div {
+        padding-top: 10px;
+    }
+    
+    .top>div:nth-child(2) {
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .centerFirstDiv>div:nth-child(1) {
+        display: flex;
+        padding-top: 20px;
+        margin-left: 20%;
+    }
+    
+    .about {
+        padding-right: 20px;
+    }
+    
+    .forum {
+        padding-right: 20px;
+    }
+    
+    .buy {
+        padding-right: 10px;
+    }
+    
+    .login {
+        padding-left: 20px;
+    }
+    
+    .blogzineFullDiv {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+        align-items: center;
+        width: 105%;
+        margin-left: 9%;
+    }
+    
+    .blogzineSpam {
+        display: flex;
+    }
+    
+    .home {
+        padding-right: 20px;
+    }
+    
+    .pages {
+        padding-left: 20px;
+    }
+    
+    .post {
+        padding-left: 20px;
+    }
+    
+    .lifestyle {
+        padding-left: 20px;
+    }
+    
+    .component {
+        padding-left: 20px;
+    }
+    
+    .subscribe {
+        border: 1px solid black;
+        width: 90px;
+        padding: 10px;
+        text-align: center;
+        background-color: red;
+        color: white;
+    }
+    
+    .trending {
+        border: 1px solid black;
+        width: 70px;
+        padding-left: 10px;
+        padding-top: 5px;
+        height: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    
+    .lifestyleFlex {
+        display: flex;
+        padding-top: 30px;
+    }
+    
+    .lifestyleDiv {
+        border: 1px solid black;
+        width: 30%;
+        border-radius: 10px;
+        height: 400px;
+        padding: 50px;
+    }
+    
+    .louis {
+        display: flex;
+    }
+    
+    .louislist {
+        display: flex;
+    }
+    
+    .louis2021 {
+        margin-left: 50px;
+    }
+    
+    .louisRead {
+        margin-left: 50px;
+    }
+    
+    .technologyFullDiv {
+        border: 1px solid black;
+        width: 100%;
+        padding: 40px;
+        border-radius: 10px;
+        margin-left: 20px;
+        height: 150px;
+    }
+    
+    .technology-h2-topdiv {
+        width: 70%;
+    }
+    
+    .bryan {
+        display: flex;
+    }
+    
+    .trend-fullmargin {
+        margin-left: 20%;
+    }
+    
+    .li-aug {
+        margin-left: 50px;
+    }
+    
+    .flex-bs {
+        display: flex;
+        width: 117%
+    }
+    
+    .border-busines {
+        border: 1px solid black;
+        padding: 25px;
+        margin: 20px;
+        height: 200px;
+        border-radius: 10px;
+        width: 75%;
+    }
+    
+    .width-business {
+        width: 60%;
+    }
+    
+    .width-bussiness-h3 {
+        width: 60%;
+    }
+    
+    .flex-jj {
+        display: flex;
+    }
+    
+    .margin-li {
+        margin-left: 50px;
+    }
+    
+    .border-sports {
+        border: 1px solid black;
+        height: 220px;
+        width: 75%;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    .width-sports-h3 {
+        width: 50%;
+    }
+    
+    .flex-ul {
+        display: flex;
+    }
+    
+    .margin-li-sports {
+        margin-left: 40px;
+    }
+    
+    .flex-div {
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .border-ul-technology {
+        border: 1px solid black;
+        height: 250px;
+        width: 42%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .flex-tt-img {
+        display: flex;
+        width: 130%;
+    }
+    
+    .border-ul-travel {
+        border: 1px solid black;
+        width: 36%;
+        padding: 30px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    
+    .width-highlight-side {
+        width: 58%;
+    }
+    
+    .flex-ul-tt {
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .flex-tt-para {
+        display: flex;
+        padding-top: 20px;
+        width: 90%;
+    }
+    
+    .flex-t-para-padding {
+        width: 120%;
+        margin-left: 70px;
+    }
+    
+    .flex-t-width {
+        width: 130%;
+    }
+    
+    .flex-t-para-width {
+        width: 110%;
+        padding-top: 10px;
+    }
+    
+    .flex-t-secondpara-width {
+        width: 110%;
+        padding-top: 10px;
+    }
+    
+    .width-h2-t {
+        width: 105%;
+    }
+    
+    .flex-fans {
+        display: flex;
+    }
+    
+    .fans-border {
+        border: 1px solid black;
+        height: fit-content;
+        padding: 20px;
+        width: 15%;
+        text-align: center;
+    }
+    
+    .followers-border {
+        border: 1px solid black;
+        height: fit-content;
+        padding: 20px;
+        width: 15%;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .sub-border {
+        border: 1px solid black;
+        height: fit-content;
+        padding: 20px;
+        width: 15%;
+        text-align: center;
+    }
+    
+    .flex-gs {
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .border-gadgets {
+        border: 1px solid black;
+        height: 250px;
+        width: 42%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .border-sports-secondu-ul {
+        border: 1px solid black;
+        width: 36%;
+        padding: 30px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    
+    .seconddiv-gadgets {
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .seconddiv-gadgets-fullwidth {
+        width: 82%;
+    }
+    
+    .seconddiv-sports-fullwidth {
+        width: 78%;
+        margin-left: 10px;
+    }
+    
+    .secondiv-gadgets-parawidth {
+        width: 90%;
+    }
+    
+    .seconddiv-sports-parawidth {
+        width: 95%;
+    }
+    
+    .flex-samuel {
+        display: flex;
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+    
+    .jan-margin-ul {
+        margin-left: 30px;
+    }
+    
+    .flex-deeni {
+        display: flex;
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+    
+    .mar-margin-ul {
+        margin-left: 30px;
+    }
+    
+    .flex-fullul {
+        display: flex;
+    }
+    
+    .bryan-flex {
+        display: flex;
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+    
+    .margin-jun-ul {
+        margin-left: 30px;
+    }
+    
+    .flex-billy {
+        display: flex;
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+    
+    .dec-margin-ul {
+        margin-left: 30px;
+    }
+    
+    .flex-mp {
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .border-marketing {
+        border: 1px solid black;
+        height: 250px;
+        width: 42%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .border-photo {
+        border: 1px solid black;
+        width: 36%;
+        padding: 30px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    
+    .flex-mp-para {
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .photography-width {
+        margin-left: 0px;
+        width: 85%;
+    }
+    
+    .photography-h2-width {
+        width: 105%;
+    }
+    
+    .marketing-h2-width {
+        width: 80%;
+    }
+    
+    .marketing-para-width {
+        width: 80%;
+    }
+    
+    .flex-carolyn-ul {
+        display: flex;
+        padding: 30px;
+    }
+    
+    .ul-margin-sep {
+        margin-left: 30px;
+    }
+    
+    .marketingfull-para-width {
+        width: 90%;
+    }
+    
+    .jacqueline-flex {
+        display: flex;
+        padding: 30px;
+    }
+    
+    .margin-ul-nov {
+        margin-left: 30px;
+    }
+    
+    .margin-topic {
+        margin-top: 20px;
+    }
+    
+    .border-travel-heading {
+        border: 1px solid black;
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .border-business-heading {
+        border: 1px solid black;
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .border-marketing-heading {
+        border: 1px solid black;
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .border-photography-heading {
+        border: 1px solid black;
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .border-sports-heading {
+        border: 1px solid black;
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .line-categories {
+        text-align: center;
+        border-bottom: 1px solid black;
+        width: 35%;
+        margin: 30px;
+        margin-left: 90px;
+        border-radius: 5px;
+    }
+    
+    .width-recent-first {
+        width: 50%;
+        margin-top: 10px;
+    }
+    
+    .color-may {
+        color: gray;
+    }
+    
+    .width-recent-second {
+        width: 40%;
+        margin-top: 20px;
+    }
+    
+    .color-apr {
+        color: gray;
+    }
+    
+    .width-recent-third {
+        width: 40%;
+        margin-top: 10px;
+    }
+    
+    .color-jun {
+        color: gray;
+    }
+    
+    .width-recent-four {
+        width: 40%;
+        margin-top: 20px;
+    }
+    
+    .color-nov {
+        color: gray;
+    }
+    
+    .border-advertisement {
+        border: 1px solid black;
+        width: 40%;
+        padding: 50px;
+        margin-top: 50px;
+        height: 250px;
+    }
+    
+    .load-border {
+        border: 1px solid black;
+        position: relative;
+        left: 350px;
+        width: fit-content;
+        padding: 10px;
+        margin: 20px;
+        background-color: cornflowerblue;
+        color: darkblue;
+    }
+    
+    .flex-h2-para-news {
+        display: flex;
+        justify-content: space-between;
+        width: 134%;
+        border-top: 1px solid gray;
+        padding-top: 20px;
+    }
+    
+    .flex-fourtitles {
+        display: flex;
+        margin-top: 30px;
+        width: 134%;
+    }
+    
+    .bottom-marketing-border {
+        border: 1px solid black;
+        padding: 30px;
+        height: 155px;
+        width: 80%;
+        border-radius: 10px;
+    }
+    
+    .width-bottom-marketing-fulldiv {
+        width: 22%;
+    }
+    
+    .bottom-photography-border {
+        border: 1px solid black;
+        padding: 30px;
+        height: 155px;
+        width: 80%;
+        border-radius: 10px;
+    }
+    
+    .width-bottom-photo-fulldiv {
+        width: 22%;
+        margin-left: 40px;
+    }
+    
+    .bottom-sports-border {
+        border: 1px solid black;
+        padding: 30px;
+        height: 155px;
+        width: 80%;
+        border-radius: 10px;
+    }
+    
+    .width-bottom-sports-fulldiv {
+        width: 22%;
+        margin-left: 40px;
+    }
+    
+    .width-bottom-gadgets-fulldiv {
+        margin-left: 40px;
+        width: 22%;
+    }
+    
+    .bottom-gadgets-border {
+        border: 1px solid black;
+        padding: 30px;
+        height: 155px;
+        width: 80%;
+        border-radius: 10px;
+    }
+    
+    .blogzine-bottom-flex {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    
+    .center-align {
+        margin-left: 13%;
+        width: 71%;
+    }
+    
+    .blogzine-bottom-para-width {
+        width: 35%;
+    }
+    
+    .email-bottom-flex {
+        display: flex;
+        width: 400px;
+    }
+    
+    .email-bottom-border {
+        border: 1px solid black;
+        padding: 15px;
+        width: 50%;
+        border-radius: 5px;
+    }
+    
+    .subscribe-bottom-border {
+        border: 1px solid black;
+        padding: 15px;
+        margin-left: 10px;
+        width: 30%;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .privacy-bottom-margin {
+        margin-left: 23%;
+    }
+    
+    .boredr-background {
+        background-color: grey;
+        margin-top: 50px;
+    }
+    
+    .center-recent {
+        margin-left: 4%;
+        width: 92%;
+        border-top: 1px solid black;
+        padding-top: 50px;
+    }
+    
+    .recent-flex {
+        display: flex;
+    }
+    
+    .flex-width-bussines-blackbox {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .width-mobileapp-para-blackbox {
+        width: 17%;
+    }
+    
+    .blackbox-recent {
+        width: 25%;
+    }
+    
+    .blackbox-navigation-width {
+        width: 15%;
+    }
+    
+    .blackbox-news-padding {
+        width: 13%;
+        margin-top: 50px;
+    }
+    
+    .blackbox-update-width {
+        width: 22%;
+    }
+    
+    .margin-balckbox-busines {
+        margin-top: 25px;
+    }
+    
+    .margin-blackbox-features {
+        margin-top: 25px;
+    }
+    
+    .blackbox-margin-whatsapp {
+        margin-top: 25px;
+    }
+    
+    .blackbox-app-width {
+        width: 22%;
+    }
+    
+    .margin-blackbox-mobieapp-para {
+        margin-top: 25px;
+    }
+    
+    .width-blackb0x-busines-para {
+        width: 75%;
+    }
+    
+    .blackbox-marketing-color-margin {
+        margin-top: 20px;
+    }
+    
+    .blackbox-marketing-para-width {
+        width: 70%;
+    }
+    
+    .blackbox-hottopics-margin {
+        margin-top: 50px;
+        width: 85%;
+    }
