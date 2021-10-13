@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+.center-fulldiv-margin-width {
+    width: 72%;
+    margin: auto;
+}
+
 .top {
     display: flex;
     margin-top: 10px;
@@ -32,13 +37,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
 }
 
 .centerFirstDiv>div:nth-child(1) {
     display: flex;
     padding-top: 20px;
-    margin-left: 20%;
 }
 
 .about {
@@ -59,11 +63,10 @@
 
 .blogzineFullDiv {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 10px;
     align-items: center;
-    width: 110%;
-    margin-left: 8%;
+    width: 87%;
 }
 
 .blogzineSpam {
@@ -112,22 +115,34 @@
 .lifestyleFlex {
     display: flex;
     padding-top: 30px;
+    width: 100%;
 }
 
 .lifestyleDiv {
     border: 1px solid black;
-    width: 60%;
+    width: 40%;
     border-radius: 10px;
-    height: 445px;
-    padding: 30px;
+    height: 504px;
+    position: relative;
+}
+
+.imgfix {
+    position: absolute;
+}
+
+.img-fix-lifestyle {
+    width: 600px;
+    height: 300px;
 }
 
 .width-lifestyle-top {
-    width: 100%;
+    text-align: left;
+    width: 80%;
 }
 
 .width-lifestyle-h2-top {
-    width: 80%;
+    text-align: left;
+    width: 65%;
 }
 
 .louis {
@@ -147,24 +162,34 @@
 }
 
 .technologyFullDiv {
-    border: 1px solid black;
-    width: 98%;
+    width: 67%;
     padding: 40px;
-    border-radius: 10px;
     margin-left: 20px;
     height: 150px;
+    position: relative;
+}
+
+.img-tec {
+    position: absolute;
+    width: 100%;
+    height: 232px;
+    bottom: -1px;
+    right: -1px;
+    border-radius: 10px;
+}
+
+.position-text-tec {
+    position: absolute;
+    bottom: 10px;
+    color: white;
 }
 
 .technology-h2-topdiv {
-    width: 80%;
+    width: 75%;
 }
 
 .bryan {
     display: flex;
-}
-
-.trend-fullmargin {
-    margin-left: 20%;
 }
 
 .li-aug {
@@ -173,16 +198,30 @@
 
 .flex-bs {
     display: flex;
-    width: 117%
+    width: 80%;
 }
 
 .border-busines {
-    border: 1px solid black;
     padding: 25px;
     margin: 20px;
     height: 200px;
-    border-radius: 10px;
-    width: 65%;
+    width: 90%;
+    position: relative;
+}
+
+.business-img {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    bottom: 1px;
+    right: -1px;
+    border-radius: 10%;
+}
+
+.poistion-business {
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: 100px;
 }
 
 .width-business {
@@ -196,7 +235,7 @@
 }
 
 .width-bussiness-h3 {
-    width: 80%;
+    width: 90%;
 }
 
 .flex-jj {
@@ -208,16 +247,30 @@
 }
 
 .border-sports {
-    border: 1px solid black;
     height: 220px;
-    width: 74%;
+    width: 90%;
     margin-top: 20px;
     padding: 15px;
+    position: relative;
+}
+
+.img-sports {
+    position: absolute;
+    width: 100%;
+    right: 1px;
+    height: 250px;
+    top: -1px;
     border-radius: 10px;
 }
 
+.poistion-sports {
+    position: relative;
+    color: white;
+    top: 110px;
+}
+
 .width-sports-h3 {
-    width: 60%;
+    width: 70%;
 }
 
 .flex-ul {
@@ -234,28 +287,43 @@
 }
 
 .border-ul-technology {
-    border: 1px solid black;
     height: 250px;
     width: 42%;
     padding: 30px;
+    position: relative;
+}
+
+.img-tec-center {
+    position: absolute;
+    width: 100%;
+    right: 1px;
+    height: 312px;
+    top: -1px;
     border-radius: 10px;
 }
 
 .flex-tt-img {
     display: flex;
-    width: 139%;
 }
 
 .border-ul-travel {
-    border: 1px solid black;
     width: 38%;
     padding: 30px;
     margin-left: 20px;
+    position: relative;
+}
+
+.img-travel {
+    position: absolute;
+    width: 100%;
+    right: 1px;
+    height: 310px;
+    top: -2px;
     border-radius: 10px;
 }
 
 .width-highlight-side {
-    width: 58%;
+    width: 66%;
 }
 
 .flex-ul-tt {
@@ -266,61 +334,58 @@
 .flex-tt-para {
     display: flex;
     padding-top: 20px;
-    width: 90%;
 }
 
 .flex-t-para-padding {
-    width: 120%;
-    margin-left: 70px;
+    margin-left: 90px;
 }
 
-.flex-t-width {
-    width: 130%;
-}
+.flex-t-width {}
 
 .flex-t-para-width {
-    width: 110%;
     padding-top: 10px;
 }
 
 .flex-t-secondpara-width {
-    width: 110%;
     padding-top: 10px;
 }
 
 .width-h2-t {
-    width: 105%;
+    width: 100%;
+}
+
+.sidefulldiv-margin {
+    margin-left: 10px;
 }
 
 .flex-fans {
     display: flex;
-    width: 115%;
 }
 
 .fans-border {
     border: 1px solid black;
-    height: fit-content;
+    height: 60px;
     padding: 20px;
-    width: 20%;
+    width: 15%;
     text-align: center;
 }
 
 .followers-border {
     border: 1px solid black;
-    height: fit-content;
-    padding: 20px;
-    width: 20%;
+    height: 80px;
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-top: 20px;
 }
 
 .sub-border {
     border: 1px solid black;
-    height: fit-content;
+    height: 60px;
     padding: 20px;
-    width: 20%;
-    text-align: center;
+    width: 15%;
+    text-align: center
 }
 
 .flex-gs {
@@ -329,18 +394,34 @@
 }
 
 .border-gadgets {
-    border: 1px solid black;
     height: 250px;
     width: 42%;
     padding: 30px;
+    position: relative;
+}
+
+.img-gadgets {
+    position: absolute;
+    width: 100%;
+    right: 1px;
+    height: 310px;
+    top: -1px;
     border-radius: 10px;
 }
 
 .border-sports-secondu-ul {
-    border: 1px solid black;
     width: 38%;
     padding: 30px;
     margin-left: 20px;
+    position: relative;
+}
+
+.img-center-sports {
+    position: absolute;
+    width: 100%;
+    right: 1px;
+    height: 310px;
+    top: -1px;
     border-radius: 10px;
 }
 
@@ -416,18 +497,34 @@
 }
 
 .border-marketing {
-    border: 1px solid black;
     height: 250px;
     width: 42%;
     padding: 30px;
+    position: relative;
+}
+
+.img-center-market {
+    position: absolute;
+    width: 100%;
+    right: 1px;
+    height: 310px;
+    top: -1px;
     border-radius: 10px;
 }
 
 .border-photo {
-    border: 1px solid black;
     width: 38%;
     padding: 30px;
     margin-left: 20px;
+    position: relative;
+}
+
+.img-center-photo {
+    position: absolute;
+    width: 100%;
+    right: 1px;
+    height: 310px;
+    top: -1px;
     border-radius: 10px;
 }
 
@@ -437,7 +534,6 @@
 }
 
 .photography-width {
-    margin-left: 0px;
     width: 85%;
 }
 
@@ -594,10 +690,13 @@
     border-radius: 5px;
 }
 
+.width-sponsored {
+    width: 90%;
+}
+
 .flex-h2-para-news {
     display: flex;
     justify-content: space-between;
-    width: 134%;
     border-top: 1px solid gray;
     padding-top: 20px;
 }
@@ -605,7 +704,10 @@
 .flex-fourtitles {
     display: flex;
     margin-top: 30px;
-    width: 134%;
+}
+
+.width-sponsore-fulldiv {
+    width: 100%;
 }
 
 .bottom-marketing-border {
@@ -668,8 +770,8 @@
 }
 
 .center-align {
-    margin-left: 13%;
-    width: 76%;
+    width: 80%;
+    margin: auto;
 }
 
 .blogzine-bottom-para-width {
@@ -823,9 +925,9 @@
     display: flex;
     justify-content: space-between;
     width: 65%;
-    margin-left: 16%;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin: auto;
 }
 
 .padding-english {
@@ -847,223 +949,166 @@
     cursor: pointer;
 }
 
-.border-color-lifestyle {
-    border: 1px solid rgb(238, 20, 20);
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(90, 66, 66);
+    width: 505px;
+}
+
+.rounded-corner-lifestyle {
+    width: 100%;
+    height: 505px;
+    border-radius: 10px;
+    position: absolute;
+    right: 1px;
+}
+
+.bottom-left {
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    color: white;
+}
+
+.border-color-style {
+    border: 1px solid rgb(245, 11, 11);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(238, 20, 20);
+    background: rgb(245, 11, 11);
     border-radius: 5px;
 }
 
-.border-color-technology {
-    border: 1px solid rgb(243, 208, 9);
+.border-color-tec {
+    border: 1px solid rgb(245, 237, 11);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(243, 208, 9);
-    border-radius: 5px;
+    background: rgb(245, 237, 11);
+    border-radius: 5px
 }
 
-.border-width-sports {
-    border: 1px solid rgb(45, 147, 242);
+.border-color-sports {
+    border: 1px solid rgb(18, 107, 202);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(45, 147, 242);
-    border-radius: 5px;
+    background: rgb(18, 107, 202);
+    border-radius: 5px
 }
 
 .border-color-center-technology {
-    border: 1px solid rgb(243, 208, 9);
+    border: 1px solid rgb(245, 237, 11);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(243, 208, 9);
+    background: rgb(245, 237, 11);
     border-radius: 5px;
+    position: absolute;
+    top: 250px;
 }
 
 .border-color-centertravel {
-    border: 1px solid rgb(238, 20, 20);
+    border: 1px solid rgb(245, 11, 11);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(238, 20, 20);
+    background: rgb(245, 11, 11);
     border-radius: 5px;
+    position: absolute;
+    top: 250px;
 }
 
 .border-color-centergadgets {
-    border: 1px solid rgb(8, 208, 114);
+    border: 1px solid rgb(13, 201, 76);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(8, 208, 114);
+    background: rgb(13, 201, 76);
     border-radius: 5px;
+    position: absolute;
+    top: 250px;
 }
 
 .border-color-centersports {
-    border: 1px solid rgb(45, 147, 242);
+    border: 1px solid rgb(18, 107, 202);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(45, 147, 242);
+    background: rgb(18, 107, 202);
     border-radius: 5px;
+    position: absolute;
+    top: 250px;
 }
 
 .border-color-centermarketing {
-    border: 1px solid rgb(45, 147, 242);
+    border: 1px solid rgb(18, 107, 202);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(45, 147, 242);
+    background: rgb(18, 107, 202);
     border-radius: 5px;
+    position: absolute;
+    top: 250px;
 }
 
 .border-color-centerphoto {
-    border: 1px solid rgb(238, 20, 20);
+    border: 1px solid rgb(245, 11, 11);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(238, 20, 20);
+    background: rgb(245, 11, 11);
     border-radius: 5px;
+    position: absolute;
+    top: 250px;
 }
 
 .border-color-bottommarketing {
-    border: 1px solid rgb(45, 147, 242);
+    border: 1px solid rgb(18, 107, 202);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(45, 147, 242);
-    border-radius: 5px;
+    background: rgb(18, 107, 202);
+    border-radius: 5px
 }
 
 .border-color-bottomphoto {
-    border: 1px solid rgb(238, 20, 20);
+    border: 1px solid rgb(245, 11, 11);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(238, 20, 20);
+    background: rgb(245, 11, 11);
     border-radius: 5px;
 }
 
 .border-color-bottomsports {
-    border: 1px solid rgb(243, 208, 9);
+    border: 1px solid rgb(18, 107, 202);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(243, 208, 9);
-    border-radius: 5px;
+    background: rgb(18, 107, 202);
+    border-radius: 5px
 }
 
 .border-color-bottomgadgets {
-    border: 1px solid rgb(8, 208, 114);
+    border: 1px solid rgb(13, 201, 76);
     width: fit-content;
     padding: 4px;
     text-align: center;
     color: white;
-    background: rgb(8, 208, 114);
+    background: rgb(13, 201, 76);
     border-radius: 5px;
-}
-
-.lifestyleDiv {
-    background-image: url('lifestyle.jpg');
-    background-size: 105%;
-    color: white;
-}
-
-.technologyFullDiv {
-    background-image: url('technology.jpg');
-    color: white;
-    background-size: 100%;
-    background-position-y: -30px;
-}
-
-.border-busines {
-    background-image: url('business.jpg');
-    color: #ffffff;
-}
-
-.border-sports {
-    background-image: url('sports.jpg');
-    background-size: 150%;
-    color: white;
-}
-
-.border-travel-heading {
-    background-image: url('travel.jpg');
-    background-size: 100%;
-    background-position-y: -60px;
-    color: white;
-    cursor: pointer;
-}
-
-.border-business-heading {
-    background-image: url('businessSidediv.jpg');
-    background-size: 100%;
-    background-position: -1px;
-    color: white;
-}
-
-.border-marketing-heading {
-    background-image: url('marketingSidedive.jpg');
-    background-size: 100%;
-    background-position: 1px;
-    color: white;
-}
-
-.border-photography-heading {
-    background-image: url('photoSidediv.jfif');
-    background-size: 150%;
-    background-position-y: -50px;
-    color: white;
-}
-
-.border-sports-heading {
-    background-image: url('sportSidediv.jfif');
-    background-size: 100%;
-    background-position: -1px;
-    color: white;
-}
-
-.border-ul-technology {
-    background-image: url('technologyCenter.jpg');
-    background-size: 120%;
-    background-position-x: -40px;
-}
-
-.border-ul-travel {
-    background-image: url('travelCenter.jpg');
-    background-position: -100px;
-}
-
-.border-gadgets {
-    background-image: url('gadgetsCenter.jfif');
-    background-size: 120%;
-}
-
-.border-sports-secondu-ul {
-    background-image: url('sportsCenter.jfif');
-    background-size: 100%;
-}
-
-.border-marketing {
-    background-image: url('marketingCenter.jpeg');
-    background-position-x: -40px;
-}
-
-.border-photo {
-    background-image: url('photoCenter.jfif');
-    background-size: 100%;
 }
